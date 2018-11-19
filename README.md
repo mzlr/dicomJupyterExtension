@@ -20,7 +20,8 @@ We can use a browser on the server to view the dicom images.
 
 2. Launch a GTK Broadway server by `broadwayd -a 0.0.0.0 -p 8080 :0`;
 
-3. Launch the browser to visit Jupyter Notebook by `GDK_BACKEND=broadway BROADWAY_DISPLAY=:0 epiphany -i localhost:8888`;
+3. Launch the browser to visit Jupyter Notebook by   
+`GDK_BACKEND=broadway BROADWAY_DISPLAY=:0 epiphany -i localhost:8888`;
 
 4. Go to the url `YOUR_EC2_PUBLIC_IP:8080` to use the browser on the server.
 
