@@ -26,4 +26,4 @@ We can use a browser on the server to view the dicom images.
 4. Go to the url `YOUR_EC2_PUBLIC_IP:8080` to use the browser on the server.
 
 ## TODO:
-* Limit the internet access of the browser so that it can only access the local machine, i.e., localhost:8888 (Jupyter Notebook)
+* Limit the internet access of the browser so that it can only access the local machine, i.e., `localhost:8888` (Jupyter Notebook)
